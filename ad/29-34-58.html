@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width">
+
+    <title>Sklik reklama</title>
+    
+    <style>
+		/* GENERAL */
+		* { padding: 0; border: 0; margin: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+		html { height: 100%; }
+		body { height: 100%; font-family: Georgia, serif; font-size: 15px; line-height: 1.5; -webkit-text-size-adjust: none; }
+                .contain-wrapper { position: relative; width: 100%; height: 100%; }
+                .contain { position: absolute; top: -9999px; right: -9999px; bottom: -9999px; left: -9999px; margin: auto; max-width: 100%; max-height: 100%; }
+		a { text-decoration: none; }
+		#page { background: #ffffff; padding-bottom: 20px; }
+		h1.ads { font-size: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; margin-bottom: 4px; }
+		h1.ads a { color: #b5b5b5; }
+		h1.ads img { display: block; float: left; margin: 5px 4px 0 0; }
+		p { color: #000; }
+		.clr { content: ""; display: table; clear: both; }
+                .centered {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -moz-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    -o-transform: translate(-50%, -50%);
+                    -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    border-i-left
+                }
+
+                
+                /* KOMBINOVANÁ REKLAMA */
+		#container-combi { width: 100%; height: 100%; }
+		.combi-ad { margin-bottom: 10px; }
+		#container-combi .combi-ad:nth-child(2) { width: 52.5%; float: left; padding-right: 50px; }
+		#container-combi .combi-ad:nth-child(3) { width: 47.5%; float: right; padding-right: 20px; }
+                
+                /*** combi screen ***/
+                .combi-ad .combi-screen { position: relative; width: 200px; height: 113px; border: 1px solid #b5b5b5; margin-right: 15px; overflow: hidden; }
+                .combi-ad .combi-screen > a { display: block; position: relative; width: auto; height: 100%; padding: 0; box-sizing: content-box; overflow: hidden; }
+                .combi-ad .combi-screen img { position: absolute; height: 101%; width: auto; }
+
+		/*** combi title ***/
+		.combi-ad .combi-title { font-weight: bold; font-size: 18px; line-height: 1.5; color: #000; padding-top: 5px; }
+		.combi-ad .combi-title > span { color: #cc0000;}
+		.combi-ad:hover .combi-title > span { text-decoration: underline; }
+
+		/*** combi text ***/
+		.combi-ad .combi-text { font-weight: normal; font-size: 15px; line-height: 1.5; }
+		.combi-ad .combi-text a { color: #000000;
+			text-shadow: 1px 1px 0 #ffffff, -1px 1px 0 #ffffff, 2px 0 0 #ffffff, -2px 0 0 #ffffff;
+			background-image: linear-gradient(to right, #000000 0%, #000000 100%);
+			background-repeat: repeat-x;
+			background-position: 0 98%;
+			background-size: 100% 1px;
+		}
+		.combi-ad .combi-text a span { background: #ffffff; transition: 0.5s;  }
+		.combi-ad:hover .combi-text a span { background: none; }
+		
+			/*** combi comp ***/
+			.combi-ad .combi-comp { font-weight: normal; font-size: 15px; line-height: 21px; }
+			.combi-ad .combi-comp > span { color: #cc0000; text-decoration: underline; padding-right: 10px;
+				background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAHCAYAAAAvZezQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADRJREFUeNpiPMPA8J+BgYHR+D+IYmBgYoCA/2cZGVEE4ILIAmBBdAFGZAFGZDMYYaIAAQYAIsYIqfCaHAoAAAAASUVORK5CYII=');
+				background-repeat: no-repeat;
+				background-position: 100% 60%;
+			}
+			.combi-ad:hover .combi-comp > span { text-decoration: underline; }
+		
+		/* DRTG - textová verze */
+		#container-drtg-text .produkt:nth-child(2) { width: 52.5%; float: left; padding-right: 50px; }
+		#container-drtg-text .produkt:nth-child(3) { width: 47.5%; float: right; padding-right: 20px; }
+		.produkt { display: block; width: 100%; height: 100%; }
+                
+                /*** produkt img ***/
+                .produkt .produkt-img { width: 200px; height: 113px; margin-right: 15px; background: #ffffff; border: 1px solid #bcbec0; }
+                .produkt .produkt-img img{ padding: 5px; }
+                
+                /*** produkt text ***/
+		.produkt h2 { font-size: 18px; font-weight: bold; overflow: hidden; max-height: 54px; padding-top: 5px; }
+		.produkt h2 > span { color: #cc0000;; }
+		.produkt:hover h2 > span { text-decoration: underline; }
+		
+		
+		
+		
+		.produkt p { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+		.shop-favicon { display: block; float: left; margin: 7px 8px 0 0; }
+		span.cena { font-size: 18px; color: #000; }
+		.shop-url { color: #cc0000; text-decoration: underline; padding-right: 10px;
+			background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAHCAYAAAAvZezQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADRJREFUeNpiPMPA8J+BgYHR+D+IYmBgYoCA/2cZGVEE4ILIAmBBdAFGZAFGZDMYYaIAAQYAIsYIqfCaHAoAAAAASUVORK5CYII=');
+			background-repeat: no-repeat;
+			background-position: 100% 70%;
+		}
+		.produkt:hover .shop-url { text-decoration: none;  }
+    </style>
+	
+	
+  </head>
+  
+  <body>
+
+
+
+		<div id="page">
+		
+                        <!-- KOMBINOVANÁ REKLAMA -->
+			
+				<div id="container-combi">
+					<h1 class="ads">
+						<a href="https://o.seznam.cz/ochrana-udaju/personalizovana-reklama/" target="_top"><img src="data:image/gif;base64,R0lGODlhBgADAIAAAKenp////yH5BAEAAAEALAAAAAAGAAMAAAIGhB8HwcYFADs=" alt="šipka reklama">REKLAMA</a>
+					</h1>
+					
+						<a class="combi-ad" target="_top" href="https://cs.wiktionary.org/wiki/t%C5%99i_prdele" title="Konec světa 2.0 přichází">
+                                                    <div class="combi-screen">
+                                                            <img class="centered" src="https://hovinkycz.github.io/public/upload/Ad/58/photo.konec-sveta-2-0-prichazi.medium.jpg" onerror="this.src=screenPlaceholder" srcset="" alt="Konec světa 2.0 přichází" title="Konec světa 2.0 přichází" text="Konec světa 2.0 přichází" data-dot-text="">
+							</div>
+							<h2 class="combi-title">
+                                                            <span>Konec světa 2.0 přichází</span>
+							</h2>
+							<p class="combi-text"><span><span>Tentokrát žádné demo! Zachraň sebe i svého pejska! Pospěš si, už se to hroutí!</span></span></p>
+							
+						</a>
+					
+						<a class="combi-ad" target="_top" href="https://cs.wiktionary.org/wiki/t%C5%99i_prdele" title="Zbavte se kašle efektivně">
+                                                    <div class="combi-screen">
+                                                            <img class="centered" src="https://hovinkycz.github.io/public/upload/Ad/34/photo.zbavte-se-kasle-efektivne.medium.jpg" onerror="this.src=screenPlaceholder" srcset="" alt="Zbavte se kašle efektivně" title="Zbavte se kašle efektivně" text="Zbavte se kašle efektivně" data-dot-text="">
+							</div>
+							<h2 class="combi-title">
+                                                            <span>Zbavte se kašle efektivně</span>
+							</h2>
+							<p class="combi-text"><span><span>a ihned: vykašlejte se na to!</span></span></p>
+							
+						</a>
+					
+					<div class="clr"></div>
+				</div>
+			
+			
+			
+			
+
+		</div>
+
+		
+		
+		
+
+	
+
+</body>
+</html>

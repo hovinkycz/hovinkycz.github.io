@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width">
+
+    <title>Sklik reklama</title>
+    
+    <style>
+		/* GENERAL */
+		* { padding: 0; border: 0; margin: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+		html { height: 100%; }
+		body { height: 100%; -webkit-text-size-adjust: none; }
+        .contain-wrapper { position: relative; width: 100%; height: 100%; }
+        .contain { position: absolute; top: -9999px; right: -9999px; bottom: -9999px; left: -9999px; margin: auto; max-width: 100%; max-height: 100%; }
+		a { text-decoration: none; }
+		#page { background: #ffffff; }
+		p { color: #000; }
+		.clr { content: ""; display: table; clear: both; }
+        .centered {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-moz-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			-o-transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+        }
+		.h-centered {
+				  position: absolute;
+				  left: 50%;
+				  -moz-transform: translate(-50%);
+				  -ms-transform: translate(-50%);
+				  -o-transform: translate(-50%);
+				  -webkit-transform: translate(-50%);
+				  transform: translate(-50%);
+		}
+		.v-centered {
+				  position: absolute;
+				  top: 50%;
+				  -moz-transform: translate(0, -50%);
+				  -ms-transform: translate(0, -50%);
+				  -o-transform: translate(0, -50%);
+				  -webkit-transform: translate(0, -50%);
+				  transform: translate(0, -50%);
+		}
+		.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+		
+		/* OZN. REKLAMA */
+		h1.ads { font-size: 10px; font-weight: normal; line-height: 1; text-transform: uppercase; margin-bottom: 8px; font-family: Arial, helvetica, sans-serif; }
+		h1.ads a { color: #a7a7a7; padding: 0 5px 0 9px;
+			background-color: white;
+			background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAYAAABCxiV9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAChJREFUeNpiXL58+X8GHIApIiKCEYccIxOIxKIAzGeC8ZAUwBUCBBgA8tkGGulUVVMAAAAASUVORK5CYII=');
+			background-position: 0% center;
+			background-repeat: no-repeat;
+		}
+
+        /* KOMBINOVANÁ REKLAMA */
+		#container-combi { width: 100%; height: 100%; position: relative; padding-bottom: 20px; padding-left: 12px; padding-right: 12px; }
+		.combi-ad { width: 100%; height: 100%; position: relative; margin-bottom: 10px; }
+		.combi-ad:after { content: ""; display: table; clear: both; }
+                
+		/*** combi img ***/
+		.combi-ad .combi-img { position: relative; width: 70px; height: auto; float: left; }
+		.combi-ad .combi-img > div { position: relative; width: 100%; height: 0; padding-bottom: 100%; }
+		.combi-ad .combi-img > div > a { display: block; position: absolute; width: 100%; height: 100%; overflow: hidden; }
+		.combi-ad .combi-img img { position: absolute; height: 100%; width: auto; }
+
+		/*** combi text ***/
+		.combi-text-wrapper { width: calc(100% - 70px); float: right; padding-left: 10px; }
+
+		/*** combi title ***/
+		.combi-ad .combi-title { font-family: Georgia, serif; font-size: 15px; font-weight: bold; line-height: 1.4; color: #000; }
+		.combi-ad .combi-title a { color: #000;  }
+		
+		/*** combi title ***/
+		.combi-ad .combi-desc { font-family: Georgia, serif; font-size: 15px; font-weight: normal; line-height: 1.4; color: #000; }
+		.combi-ad .combi-desc a { color: #000;  }
+
+		/* DRTG - textová verze */
+		#container-drtg-text { width: 100%; height: 100%; position: relative; padding-bottom: 10px; padding-left: 12px; padding-right: 12px; }
+		.produkt { width: 100%; height: 100%; position: relative; margin-bottom: 10px; }
+        .produkt:after { content: ""; display: table; clear: both; }
+		
+        /*** produkt img ***/
+		.produkt .produkt-img { position: relative; width: 70px; height: 70px; float: left; background: #fff; border: 1px solid #b5b5b5; }
+		.produkt .produkt-img a { display: block; width: 100%; height: 100%; padding: 5px; }
+                
+		/*** drtg text ***/
+		.drtg-text-wrapper { width: calc(100% - 70px); float: right; padding-left: 10px; }
+
+		/*** drtg title ***/
+		.produkt .drtg-title { font-family: Georgia, serif; font-size: 15px; font-weight: bold; line-height: 1.4; color: #000; }
+		.produkt .drtg-title a  { color: #000;  }
+
+		/*** drtg cena ***/
+		.produkt .drtg-cena { font-family: Georgia, serif; font-size: 15px; font-weight: normal; line-height: 1.4; color: #000; }
+		.produkt .drtg-cena a  { color: #000; }
+
+		/*** drtg eshop ***/
+		.produkt .drtg-eshop { font-family: Georgia, serif; font-size: 15px; line-height: 1.4; color:  #cc0000; }
+		.produkt .drtg-eshop a { color: #cc0000; text-decoration: underline;  }
+		.combi-ad .combi-comp > span { color: #cc0000; text-decoration: underline; padding-right: 10px;
+			background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAHCAYAAAAvZezQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADRJREFUeNpiPMPA8J+BgYHR+D+IYmBgYoCA/2cZGVEE4ILIAmBBdAFGZAFGZDMYYaIAAQYAIsYIqfCaHAoAAAAASUVORK5CYII=');
+			background-repeat: no-repeat;
+			background-position: 100% 60%;
+		}
+		 @media screen and (max-width: 470px){
+           .produkt .drtg-title { width: calc(100vw - 100px); }
+        }
+		
+    </style>
+	
+	
+  </head>
+  
+  <body>
+
+		<div id="page">
+		
+			<!-- KOMBINOVANÁ REKLAMA -->
+			
+				<div id="container-combi">
+					<h1 class="ads">
+						<a href="https://o.seznam.cz/ochrana-udaju/personalizovana-reklama/" target="_top">REKLAMA</a>
+					</h1>
+					
+						<div class="combi-ad" target="_top" href="//c.imedia.cz/click?adurl=https://www.mkluzkoviny.cz/bavlnene-povleceni-na-2-postele/%3Futm_source%3Dseznam%26utm_medium%3Dcpc%26utm_campaign%3DOS%2B%257c%2BKombi%2B%257c%2BMobil%2B%257c%2BZeny%26utm_content%3DUmisteni%2B%255bNovinky.cz%255d%26utm_term%3D&amp;c=QGXMET3XIP7DAMTV25TMSMRA2YTT7Z4YDW8RA4ZA49SJVURMU29M42UNG2X8HHIFE969MHTPMRFQ28JHRQVY8BHIPC6V6QHH6722ZRSQU6JT9MV28PNZV3QKNK24GTWQ627HJ5VYYQHKT47W4SY3EQWNK8GAKCT2ZP6G8AXVZHMRJQCEMWKB93N7QF9J52X7B4WE4J3ED32QZVJZQ34TTWPGGS">
+                            <div class="combi-img">
+								<div>
+									<a target="_top" href="https://www.youtube.com/watch?v=uRAdxrlYo2E" title="Berle, dlaha a set 200 tablet">
+										<img class="centered" src="https://hovinkycz.github.io/public/upload/Ad/30/photo.berle-dlaha-a-set-200-tablet.medium.jpg" onerror="this.src=screenPlaceholder" srcset="" alt="Berle, dlaha a set 200 tablet" title="Berle, dlaha a set 200 tablet" text="Berle, dlaha a set 200 tablet" data-dot-text="">
+									</a>
+								</div>
+							</div>
+							<div class="combi-text-wrapper">
+								<div class="v-centered">
+									<p class="combi-title">
+										<a target="_top" href="https://www.youtube.com/watch?v=uRAdxrlYo2E" title="Berle, dlaha a set 200 tablet"><span>Berle, dlaha a set 200 tablet</span></a>
+									</p>
+									<p class="combi-desc">
+										<a target="_top" href="https://www.youtube.com/watch?v=uRAdxrlYo2E" title="Berle, dlaha a set 200 tablet"><span>Jedinečná sedací souprava do MHD. Dále průkazky ZTP již od 9999 Kč! Vše k dostání i bez stání.</span></a>
+									</p>
+								</div>
+							</div>
+						</div>
+					
+						<div class="combi-ad" target="_top" href="//c.imedia.cz/click?adurl=https://www.nevychova.cz/zdarma/cz-se-rs/optin-vychova-2/%3Futm_source%3Dseznam_cpc%26utm_medium%3Dcpc%26utm_campaign%3DCZ-CS_DIS_CZ-SE-RS_VYC_COM%26utm_content%3DCZ-CS_DIS_Um%25c3%25adst%25c4%259bn%25c3%25ad%26utm_term%3Dwww.novinky.cz&amp;c=I76CTTHJ8ZGSIKYRTG45V3BMYMHBVQXU8BFIKSXQRHKR4ADEV6ZB9GNTUKPS5VPBRT9C242Z6ATD5QA6IAI7SKERX7DP7JWUWVPITCVJVN3HPZWFYZ54NDQ36BV3RUI7HFBD8VJTZA7GWE4N4E65NPM3RMGWX3QVU7CCKC4BVZBK8EWM2XIW82735MAGSGCZTV4BDS6WFP4WG22AD54TUWA">
+                            <div class="combi-img">
+								<div>
+									<a target="_top" href="https://cs.wiktionary.org/wiki/t%C5%99i_prdele" title="Antibuzin 500mg">
+										<img class="centered" src="https://hovinkycz.github.io/public/upload/Ad/24/photo.antibuzin-500mg.medium.jpg" onerror="this.src=screenPlaceholder" srcset="" alt="Antibuzin 500mg" title="Antibuzin 500mg" text="Antibuzin 500mg" data-dot-text="">
+									</a>
+								</div>
+							</div>
+							<div class="combi-text-wrapper">
+								<div class="v-centered">
+									<p class="combi-title">
+										<a target="_top" href="https://cs.wiktionary.org/wiki/t%C5%99i_prdele" title="Antibuzin 500mg"><span>Antibuzin 500mg</span></a>
+									</p>
+									<p class="combi-desc">
+										<a target="_top" href="https://cs.wiktionary.org/wiki/t%C5%99i_prdele" title="Antibuzin 500mg"><span>Účinný lék proti homosexualitě a jiným ohavnostem. Před upotřebením protřepejte.</span></a>
+									</p>
+								</div>
+							</div>
+						</div>
+					
+						<div class="combi-ad" target="_top" href="//c.imedia.cz/click?adurl=https://treatwear.com/cs/%3Futm_source%3Dseznam%26utm_medium%3Dcpc%26utm_campaign%3DSZ_KR_GenSezn_mob_cz%26utm_content%3DNejjemn%25c4%259bj%25c5%25a1%25c3%25ad%2Bzdrav%25c3%25a9%2Bpr%25c3%25a1dlo%26utm_term%3DSZ_KR_BrandSezn_mob_cz&amp;c=EZYKYSX2SH7TTFN3TV2GCFZP4375MSWAKJX5F4AREK6Z5TU2DCX6K6ZJQ748J9DZI7FG268PFADE5M9P7W25A4Z77B6IDG86M5DI2DB25VDXX3D57QHS3AN2W2BV8CNVUE8EANMUI7PWJGPFS4FPZZ4KDYPNR66Q624ECP238F9HK8WHPTHVGZXD27TE56UC8TKKCM3Z4PP5TCBRI2SS2HIJ">
+                            <div class="combi-img">
+								<div>
+									<a target="_top" href="https://cs.wiktionary.org/wiki/t%C5%99i_prdele" title="Agroleasing a.s.">
+										<img class="centered" src="https://hovinkycz.github.io/public/upload/Ad/7/photo.agroleasing-a-s-.medium.jpg" onerror="this.src=screenPlaceholder" srcset="" alt="Agroleasing a.s." title="Agroleasing a.s." text="Agroleasing a.s." data-dot-text="">
+									</a>
+								</div>
+							</div>
+							<div class="combi-text-wrapper">
+								<div class="v-centered">
+									<p class="combi-title">
+										<a target="_top" href="https://cs.wiktionary.org/wiki/t%C5%99i_prdele" title="Agroleasing a.s."><span>Agroleasing a.s.</span></a>
+									</p>
+									<p class="combi-desc">
+										<a target="_top" href="https://cs.wiktionary.org/wiki/t%C5%99i_prdele" title="Agroleasing a.s."><span>Jste vůl, že jste si ještě nekoupil krávu.</span></a>
+									</p>
+								</div>
+							</div>
+						</div>
+					
+					<div class="clr"></div>
+				</div>
+			
+			
+			<!-- DRTG -->
+			
+
+		</div>
+
+		
+		
+		
+
+	
+
+</body>
+</html>
