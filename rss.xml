@@ -5,11 +5,17 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2020-07-17 20:05:32 +0200</pubDate>                                                                                                                
-    <lastBuildDate>2020-07-17 20:05:32 +0200</lastBuildDate>                                                                                                    
+    <pubDate>2020-07-17 20:46:41 +0200</pubDate>                                                                                                                
+    <lastBuildDate>2020-07-17 20:46:41 +0200</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Správa železnic není na šestou vlnu COVID-19 připravena</title>
+        <link>https://hovinky.com/cechistan/sprava-zeleznic-neni-na-sestou-vlnu-covid-19-pripravena-982.html</link>
+        <description>Správa železnic, která má rozvoz nemoci COVID-19 v gesci, není na plánovanou šestou vlnu připravena. Vyplývá tak z analýzy, kterou si nechal vypracovat Svaz českých krematorií a pohřebišť. Svaz se dlouhodobě potýká s nedostatkem lidských zdrojů, a přitom v regionech plní funkci významného zaměstnavatele, který podstatně napomáhá ke snižování chudoby.</description>
+        <pubDate>2020-07-17 20:17:00 +0200</pubDate>
+      </item>
       <item>
         <title>V Česku probíhá sčítání hoven</title>
         <link>https://hovinky.com/cechistan/v-cesku-probiha-scitani-hoven-981.html</link>
@@ -123,12 +129,6 @@
         <link>https://hovinky.com/technika/cesi-vynalezli-3d-hovnotisk-960.html</link>
         <description>Rozšíření 3D tiskáren dosud bránil fakt, že na nich nešlo v patřičné kvalitě tisknout hovny. To je ale minulost, dokládá holešovická firma Prusa Research pana Josefa Průši.</description>
         <pubDate>2019-12-08 15:03:00 +0100</pubDate>
-      </item>
-      <item>
-        <title>Karel Gott doplní orloj</title>
-        <link>https://hovinky.com/zemreli/karel-gott-doplni-orloj-958.html</link>
-        <description>Na počest Karla Gotta přibude v pražském orloji třináctá postava. „Karel tam doplní soubor figur ze středověku, Křemílka a Vochomůrku a Václava Havla,“ říká patron české kultury, Michal David. Ten celý projekt vymyslel a sponzoruje.</description>
-        <pubDate>2019-10-07 16:08:00 +0200</pubDate>
       </item>
 
   </channel>
