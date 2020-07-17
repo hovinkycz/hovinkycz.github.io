@@ -5,8 +5,8 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2020-07-17 22:29:23 +0200</pubDate>                                                                                                                
-    <lastBuildDate>2020-07-17 22:29:23 +0200</lastBuildDate>                                                                                                    
+    <pubDate>2020-07-17 22:34:54 +0200</pubDate>                                                                                                                
+    <lastBuildDate>2020-07-17 22:34:54 +0200</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/m/rss.xml" rel="self" type="application/rss+xml" /> 
 
@@ -19,7 +19,7 @@
       <item>
         <title>V Česku probíhá sčítání hoven</title>
         <link>https://hovinky.com/m/cechistan/v-cesku-probiha-scitani-hoven-981.html</link>
-        <description>„Zatím jsme došli k číslu 614297 a pořád to roste,“ říká Boris Tyčko z Českého statistického úřadu. Číslo R je v ČR 0,9. Číslo R menší než 1 znamená, že se počet hoven zvyšuje exponenciálně. Číslo R rovno 1 znamená, že se počet hoven taky zvyšuje exponenciálně. „Číslo R vyšší než 1 znamená, že je to navíc dost na hovno,“ dodává Tyčko.</description>
+        <description>„Zatím jsme došli k číslu 614297 a pořád to roste,“ říká Boris Tyčko z Českého statistického úřadu. Číslo R je v ČR 0,9. Číslo R menší než 1 znamená, že počet hoven se zvyšuje exponenciálně. Číslo R rovno 1 znamená, že počet hoven se taky zvyšuje exponenciálně. „Číslo R vyšší než 1 znamená, že je to navíc dost na hovno,“ dodává Tyčko.</description>
         <pubDate>2020-07-17 19:52:00 +0200</pubDate>
       </item>
       <item>
