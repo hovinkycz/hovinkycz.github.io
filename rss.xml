@@ -5,11 +5,17 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2020-07-18 12:06:34 +0200</pubDate>                                                                                                                
-    <lastBuildDate>2020-07-18 12:06:34 +0200</lastBuildDate>                                                                                                    
+    <pubDate>2020-09-07 12:07:17 +0200</pubDate>                                                                                                                
+    <lastBuildDate>2020-09-07 12:07:17 +0200</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Až 200 miliard půjde na kokoty</title>
+        <link>https://hovinky.com/cechistan/az-200-miliard-pujde-na-kokoty-983.html</link>
+        <description>Schválená dotace by měla pomoci k tomu, aby kokoti, kteří z nějakého důvodu přišli o místo na Slunci, mohli se vrátit do společenského života. „Chceme těmto lidem maximálně usnadnit začlenění do společnosti, zejména ve vyloučených lokalitách,“ říká ministryně financí Schillerová (ANO). Opozice s uvolněním 200 miliard nesouhlasí.</description>
+        <pubDate>2020-09-07 11:53:00 +0200</pubDate>
+      </item>
       <item>
         <title>Správa železnic není na šestou vlnu COVID-19 připravena</title>
         <link>https://hovinky.com/cechistan/sprava-zeleznic-neni-na-sestou-vlnu-covid-19-pripravena-982.html</link>
@@ -123,12 +129,6 @@
         <link>https://hovinky.com/kultura/narodni-muzeum-otevrelo-zdarma-historickou-budovu-962.html</link>
         <description>Přijďte se podívat do zrekonstruované historické budovy Národního muzea. Čeká tam na vás výstava krabic.</description>
         <pubDate>2019-12-20 14:14:00 +0100</pubDate>
-      </item>
-      <item>
-        <title>Češi vynalezli 3D hovnotisk</title>
-        <link>https://hovinky.com/technika/cesi-vynalezli-3d-hovnotisk-960.html</link>
-        <description>Rozšíření 3D tiskáren dosud bránil fakt, že na nich nešlo v patřičné kvalitě tisknout hovny. To je ale minulost, dokládá holešovická firma Prusa Research pana Josefa Průši.</description>
-        <pubDate>2019-12-08 15:03:00 +0100</pubDate>
       </item>
 
   </channel>
