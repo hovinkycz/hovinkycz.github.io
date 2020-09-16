@@ -5,11 +5,17 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2020-09-08 12:41:59 +0200</pubDate>                                                                                                                
-    <lastBuildDate>2020-09-08 12:41:59 +0200</lastBuildDate>                                                                                                    
+    <pubDate>2020-09-16 11:17:37 +0200</pubDate>                                                                                                                
+    <lastBuildDate>2020-09-16 11:17:37 +0200</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Průjem ONLINE</title>
+        <link>https://hovinky.com/kultura/prujem-online-985.html</link>
+        <description>Trump: mám dva cíle: Japonsko, Kanadu a Izrael. Číslo R Roste. Dušek, Prymula, Flegr: Žádné objetí, jinak oběti! Brusel vítá druhou vlnu vyhlášek. Novely, inkluze, infuze. Česko nakažený. Královéhradecký pozitivní.</description>
+        <pubDate>2020-09-16 10:48:00 +0200</pubDate>
+      </item>
       <item>
         <title>Přeblitek zahraničního obchodu v červenci vzrostl na 13,4 miliardy</title>
         <link>https://hovinky.com/finance/preblitek-zahranicniho-obchodu-v-cervenci-vzrostl-na-13-4-miliardy-984.html</link>
@@ -123,12 +129,6 @@
         <link>https://hovinky.com/technika/na-brnenske-univerzite-vymysleli-vyrobu-hoven-z-hoven-965.html</link>
         <description>Patent na výrobu hoven z hoven drží tým výzkumníků z brněnské Automatické univerzity společně s mimozemskou Van Der Hoven Universität a Petrem Fialou (ODS). Vynález byl poprvé představen právě na sjezdu ODS tento víkend.</description>
         <pubDate>2020-01-20 15:22:00 +0100</pubDate>
-      </item>
-      <item>
-        <title>Václav Klaus se pustil do Akademie věd</title>
-        <link>https://hovinky.com/zemreli/vaclav-klaus-se-pustil-do-akademie-ved-963.html</link>
-        <description>Bývalý prezident Václav Klaus 2D (386 let) opět vstal z mrtvých, aby, vánočně naladěn, v otevřeném dopise napadl Akademii věd. Věda se, podle něj, proměnila v nástroj ďábla a ohrožuje existenci ploché Země.</description>
-        <pubDate>2019-12-20 15:19:00 +0100</pubDate>
       </item>
 
   </channel>
