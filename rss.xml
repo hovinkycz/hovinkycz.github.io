@@ -5,11 +5,17 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2020-09-16 11:44:55 +0200</pubDate>                                                                                                                
-    <lastBuildDate>2020-09-16 11:44:55 +0200</lastBuildDate>                                                                                                    
+    <pubDate>2020-09-26 15:01:53 +0200</pubDate>                                                                                                                
+    <lastBuildDate>2020-09-26 15:01:53 +0200</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Prymula: Pravděpodobně omezíme počty osob</title>
+        <link>https://hovinky.com/zdravi/prymula-pravdepodobne-omezime-pocty-osob-986.html</link>
+        <description>Podle ministra zdravotnictví Romana Prymuly zatím není možné vyloučit italský ani německý scénář. Příští týden by měla přijít další opatření, která by měla omezit počty osob.</description>
+        <pubDate>2020-09-26 14:56:00 +0200</pubDate>
+      </item>
       <item>
         <title>Průjem ONLINE</title>
         <link>https://hovinky.com/kultura/prujem-online-985.html</link>
@@ -123,12 +129,6 @@
         <link>https://hovinky.com/finance/svetove-ekonomice-hrozi-zkrychleni-966.html</link>
         <description>Světová banka čeká v eurozóně a USA mírně zrychlené až mírně rychle zrychlené zpomalování. Svoji prognózu zlepšila o -0,00%. Loni ekonomika rostla nejrychleji od největšího zpomalení zrychlení, vyplývá z prohlášení, zveřejněného v noci na čtvrtek.</description>
         <pubDate>2020-01-22 12:36:00 +0100</pubDate>
-      </item>
-      <item>
-        <title>Na brněnské univerzitě vymysleli výrobu hoven z hoven</title>
-        <link>https://hovinky.com/technika/na-brnenske-univerzite-vymysleli-vyrobu-hoven-z-hoven-965.html</link>
-        <description>Patent na výrobu hoven z hoven drží tým výzkumníků z brněnské Automatické univerzity společně s mimozemskou Van Der Hoven Universität a Petrem Fialou (ODS). Vynález byl poprvé představen právě na sjezdu ODS tento víkend.</description>
-        <pubDate>2020-01-20 15:22:00 +0100</pubDate>
       </item>
 
   </channel>
