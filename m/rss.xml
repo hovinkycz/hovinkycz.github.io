@@ -5,11 +5,17 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2020-10-15 09:26:59 +0200</pubDate>                                                                                                                
-    <lastBuildDate>2020-10-15 09:26:59 +0200</lastBuildDate>                                                                                                    
+    <pubDate>2020-10-15 19:09:55 +0200</pubDate>                                                                                                                
+    <lastBuildDate>2020-10-15 19:09:55 +0200</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/m/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Prezident Zeman abdikoval</title>
+        <link>https://hovinky.com/m/cechistan/ruska-propaganda/prezident-zeman-abdikoval-988.html</link>
+        <description>Prezident České republiky, Miloš Zeman, nečekaně odstoupil z funkce. Zachoval jsem se čestně, řekl lakonicky. Žádné další vysvětlení nepřišlo. Prezidentský mluvčí, Jiří Ovčáček, na dotazy dosud neodpovídá. V současné vypjaté situaci jsme se proto zeptali politologa Jiřího Pehe, co si myslí o důvodech tak náhlého odstoupení?</description>
+        <pubDate>2020-10-15 18:52:00 +0200</pubDate>
+      </item>
       <item>
         <title>Pomník maršála Radeckého bude splachovací</title>
         <link>https://hovinky.com/m/cechistan/nemecka-propaganda/pomnik-marsala-radeckeho-bude-splachovaci-987.html</link>
@@ -123,12 +129,6 @@
         <link>https://hovinky.com/m/zdravi/zabijacky-virus-z-ciny-ozivil-ferdinanda-peroutku-967.html</link>
         <description>Prezidentský mluvčí, Jiří Ovčáček, oznámil, že článek Ferdinanda Peroutky „Hitler je gentleman“ se našel. Ferdinand Peroutka vstal v pondělí z mrtvých a osobně ho donesl na Hrad k rukám prezidenta Zemana. Poté Zemana pokousal.</description>
         <pubDate>2020-01-28 16:45:00 +0100</pubDate>
-      </item>
-      <item>
-        <title>Světové ekonomice hrozí zkrychlení</title>
-        <link>https://hovinky.com/m/finance/svetove-ekonomice-hrozi-zkrychleni-966.html</link>
-        <description>Světová banka čeká v eurozóně a USA mírně zrychlené až mírně rychle zrychlené zpomalování. Svoji prognózu zlepšila o -0,00%. Loni ekonomika rostla nejrychleji od největšího zpomalení zrychlení, vyplývá z prohlášení, zveřejněného v noci na čtvrtek.</description>
-        <pubDate>2020-01-22 12:36:00 +0100</pubDate>
       </item>
 
   </channel>
