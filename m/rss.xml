@@ -5,11 +5,17 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2020-12-14 00:33:00 +0100</pubDate>                                                                                                                
-    <lastBuildDate>2020-12-14 00:33:00 +0100</lastBuildDate>                                                                                                    
+    <pubDate>2021-01-11 22:29:32 +0100</pubDate>                                                                                                                
+    <lastBuildDate>2021-01-11 22:29:32 +0100</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/m/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Alice a Bob. Komix, kterému se nesmějete #4 - Výpadek lampičkového serveru</title>
+        <link>https://hovinky.com/m/vtipy/alice-a-bob-komix-kteremu-se-nesmejete-4-vypadek-lampickoveho-serveru-988.html</link>
+        <description>Alice a Bob jsou programátoři. V současnosti tráví volno prací na vlastních open-source projektech.</description>
+        <pubDate>2021-01-11 22:04:00 +0100</pubDate>
+      </item>
       <item>
         <title>Vláda zavádí nový 42 stupňový semafor</title>
         <link>https://hovinky.com/m/zdravi/vlada-zavadi-novy-42-stupnovy-semafor-987.html</link>
@@ -123,12 +129,6 @@
         <link>https://hovinky.com/m/komentare/konec-je-tady--968.html</link>
         <description>Vláda ve večerním speciálu na ČT24 sdělila, že ČR je na konec světa připravena nejlépe ze všech států. Do ekonomiky bude napumpována injekce morfia. „Milion litrů. Miliarda litrů. Nebo kolik,“ upřesnil premiér Babiš. </description>
         <pubDate>2020-03-19 22:23:00 +0100</pubDate>
-      </item>
-      <item>
-        <title>Zabijácký virus z Číny oživil Ferdinanda Peroutku</title>
-        <link>https://hovinky.com/m/zdravi/zabijacky-virus-z-ciny-ozivil-ferdinanda-peroutku-967.html</link>
-        <description>Prezidentský mluvčí, Jiří Ovčáček, oznámil, že článek Ferdinanda Peroutky „Hitler je gentleman“ se našel. Ferdinand Peroutka vstal v pondělí z mrtvých a osobně ho donesl na Hrad k rukám prezidenta Zemana. Poté Zemana pokousal.</description>
-        <pubDate>2020-01-28 16:45:00 +0100</pubDate>
       </item>
 
   </channel>
