@@ -5,11 +5,17 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2021-01-11 22:28:31 +0100</pubDate>                                                                                                                
-    <lastBuildDate>2021-01-11 22:28:31 +0100</lastBuildDate>                                                                                                    
+    <pubDate>2021-01-13 18:34:26 +0100</pubDate>                                                                                                                
+    <lastBuildDate>2021-01-13 18:34:26 +0100</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Klaus: budu si honit čuráka třeba v katedrále!</title>
+        <link>https://hovinky.com/cechistan/ruska-propaganda/klaus-budu-si-honit-curaka-treba-v-katedrale--989.html</link>
+        <description>„Nemyslím si, a opakuji to, nemyslím si, že jde o jakýkoli protest,“ řekl na úvod neprotestu Klaus. „Půjdu teď honit do jedné zavřené restaurace v Dejvicích,“ nastínil své další kroky. „Přivedou mi tam kluky od Mladých křesťanů. Forejt zajistil tradiční koks, D.O.S.T. pro všechny.“ Přesto svůj vzdor označil za „jistou formu občanské neposlušnosti“.</description>
+        <pubDate>2021-01-13 17:53:00 +0100</pubDate>
+      </item>
       <item>
         <title>Alice a Bob. Komix, kterému se nesmějete #4 - Výpadek lampičkového serveru</title>
         <link>https://hovinky.com/vtipy/alice-a-bob-komix-kteremu-se-nesmejete-4-vypadek-lampickoveho-serveru-988.html</link>
@@ -123,12 +129,6 @@
         <link>https://hovinky.com/krimi/obcanku-dostihli-termovizi-969.html</link>
         <description>Alenu R., která v sobotu ve večerních hodinách odešla z domova, dostihla až termovize. Za spáchání trestného činu pohybu na veřejnosti jí hrozí trest odnětí orgánů do váhy 5 kg.</description>
         <pubDate>2020-03-20 21:05:00 +0100</pubDate>
-      </item>
-      <item>
-        <title>Konec je tady!</title>
-        <link>https://hovinky.com/komentare/konec-je-tady--968.html</link>
-        <description>Vláda ve večerním speciálu na ČT24 sdělila, že ČR je na konec světa připravena nejlépe ze všech států. Do ekonomiky bude napumpována injekce morfia. „Milion litrů. Miliarda litrů. Nebo kolik,“ upřesnil premiér Babiš. </description>
-        <pubDate>2020-03-19 22:23:00 +0100</pubDate>
       </item>
 
   </channel>
