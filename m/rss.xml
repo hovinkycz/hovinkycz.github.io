@@ -5,11 +5,17 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2021-01-19 22:32:16 +0100</pubDate>                                                                                                                
-    <lastBuildDate>2021-01-19 22:32:16 +0100</lastBuildDate>                                                                                                    
+    <pubDate>2021-01-23 18:53:45 +0100</pubDate>                                                                                                                
+    <lastBuildDate>2021-01-23 18:53:45 +0100</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/m/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Lyžařská střediska otevřeme v červnu, maximálně v červenci, oznámil Blatný</title>
+        <link>https://hovinky.com/m/cechistan/lyzarska-strediska-otevreme-v-cervnu-maximalne-v-cervenci-oznamil-blatny-992.html</link>
+        <description>Ačkoli lze předpokládat, že tou dobou již žádný sníh na sjezdovkách nebude, chystají se kompenzace. „Vleky pojedou normálně a svahy budeme upravovat,“ dodává Blatný.</description>
+        <pubDate>2021-01-23 17:50:00 +0100</pubDate>
+      </item>
       <item>
         <title>Již 125 tisíc vyznamenáno. Babiš obdrží Nobelovu cenu</title>
         <link>https://hovinky.com/m/cechistan/jiz-125-tisic-vyznamenano-babis-obdrzi-nobelovu-cenu-991.html</link>
@@ -123,12 +129,6 @@
         <link>https://hovinky.com/m/cechistan/vysocina-zada-armadu-o-pomoc-971.html</link>
         <description>Kraj Vysočina požádal v neděli ministerstvo obrany o nasazení armády v domově důchodců v Břevnici u Havlíčkova Brodu. „Porvaly se nám klientky,“ říká staniční sestra, která sama utrpěla vážná zranění. Situace je napjatá a hrozí další eskalace konfliktu.</description>
         <pubDate>2020-03-29 15:40:00 +0200</pubDate>
-      </item>
-      <item>
-        <title>Firmy se plošně zbavují zaměstnanců</title>
-        <link>https://hovinky.com/m/finance/firmy-se-plosne-zbavuji-zamestnancu-970.html</link>
-        <description>Kontejnery se plní a není kam je dávat, stěžuje si viceprezident Svazu nefunkčního průmyslu a dopravy ČR, Radek Špicar. Odvoz kontejnerů dosud zajišťovaly městské služby, ale i ty už se zbavily zaměstnanců. O náhradním řešení ani o trvalém úložišti přitom Vláda neuvažuje.</description>
-        <pubDate>2020-03-25 12:41:00 +0100</pubDate>
       </item>
 
   </channel>
