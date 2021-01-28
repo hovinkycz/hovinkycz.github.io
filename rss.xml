@@ -5,11 +5,17 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2021-01-24 02:27:35 +0100</pubDate>                                                                                                                
-    <lastBuildDate>2021-01-24 02:27:35 +0100</lastBuildDate>                                                                                                    
+    <pubDate>2021-01-28 16:05:59 +0100</pubDate>                                                                                                                
+    <lastBuildDate>2021-01-28 16:05:59 +0100</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Přijdou nová a tvrdší opatření. Budeme mučit, oznámil Babiš</title>
+        <link>https://hovinky.com/cechistan/prijdou-nova-a-tvrdsi-opatreni-budeme-mucit-oznamil-babis-993.html</link>
+        <description>Stejně jako u mučení I. stupně (mučení tiskovou konferencí Vlády, mučení prohlášeními ministra Havlíčka a mučení Blatným) bude proces velmi zdlouhavý. „Prolamování páteře přijde skutečně velmi pomalu,“ potvrdil Babiš. Obvykle povede k trvalým poškozením nervů i celé páteře.</description>
+        <pubDate>2021-01-28 15:56:00 +0100</pubDate>
+      </item>
       <item>
         <title>Lyžařská střediska otevřeme v červnu, maximálně v červenci, oznámil Blatný</title>
         <link>https://hovinky.com/cechistan/lyzarska-strediska-otevreme-v-cervnu-maximalne-v-cervenci-oznamil-blatny-992.html</link>
@@ -123,12 +129,6 @@
         <link>https://hovinky.com/cechistan/v-cesku-se-rozhorel-boom-necestovnich-kancelari-973.html</link>
         <description>Také letos nikam nejedete? Nejste v tom sami. Ani ostatní lidé nikam nepojedou.</description>
         <pubDate>2020-03-30 16:52:00 +0200</pubDate>
-      </item>
-      <item>
-        <title>Vysočina žádá armádu o pomoc</title>
-        <link>https://hovinky.com/cechistan/vysocina-zada-armadu-o-pomoc-971.html</link>
-        <description>Kraj Vysočina požádal v neděli ministerstvo obrany o nasazení armády v domově důchodců v Břevnici u Havlíčkova Brodu. „Porvaly se nám klientky,“ říká staniční sestra, která sama utrpěla vážná zranění. Situace je napjatá a hrozí další eskalace konfliktu.</description>
-        <pubDate>2020-03-29 15:40:00 +0200</pubDate>
       </item>
 
   </channel>
