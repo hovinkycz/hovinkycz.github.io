@@ -5,11 +5,17 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2021-01-28 19:04:46 +0100</pubDate>                                                                                                                
-    <lastBuildDate>2021-01-28 19:04:46 +0100</lastBuildDate>                                                                                                    
+    <pubDate>2021-01-29 19:27:01 +0100</pubDate>                                                                                                                
+    <lastBuildDate>2021-01-29 19:27:01 +0100</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Sorry jako, končíme. Vláda zakázala samu sebe</title>
+        <link>https://hovinky.com/cechistan/sorry-jako-koncime-vlada-zakazala-samu-sebe-994.html</link>
+        <description>V rámci proticovidových opatření zakázala Vláda volný pohyb osob, volnou ruku trhu a nakonec samu sebe. Poslední opatření přišlo v době, kdy zároveň končí očkování rizikové skupiny - žádná už není.</description>
+        <pubDate>2021-01-29 19:18:00 +0100</pubDate>
+      </item>
       <item>
         <title>Budeme mučit, oznámil Babiš</title>
         <link>https://hovinky.com/cechistan/budeme-mucit-oznamil-babis-993.html</link>
@@ -123,12 +129,6 @@
         <link>https://hovinky.com/krimi/muz-v-primem-prenosu-zemrel-na-elektrosoky-974.html</link>
         <description>Otřesně skončil výslech na služebně Městské Policie, přenášený v přímém televizním přenosu. Muž (58) na jeho následky zemřel. „Šlo o recidivistu, který byl na služebnu deportován kvůli nošení roušky pod nos,“ upřesňuje mluvčí policie, Jakub Pták. Přivolaný lékař mohl už jen konstatovat zranění slučitelné se smrtí.</description>
         <pubDate>2020-04-10 20:55:00 +0200</pubDate>
-      </item>
-      <item>
-        <title>V Česku se rozhořel boom necestovních kanceláří</title>
-        <link>https://hovinky.com/cechistan/v-cesku-se-rozhorel-boom-necestovnich-kancelari-973.html</link>
-        <description>Také letos nikam nejedete? Nejste v tom sami. Ani ostatní lidé nikam nepojedou.</description>
-        <pubDate>2020-03-30 16:52:00 +0200</pubDate>
       </item>
 
   </channel>
