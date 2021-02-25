@@ -5,11 +5,18 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2021-02-04 21:44:38 +0100</pubDate>                                                                                                                
-    <lastBuildDate>2021-02-04 21:44:38 +0100</lastBuildDate>                                                                                                    
+    <pubDate>2021-02-25 08:50:24 +0100</pubDate>                                                                                                                
+    <lastBuildDate>2021-02-25 08:50:24 +0100</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Česká opozice našla společnou řeč</title>
+        <link>https://hovinky.com/cechistan/ceska-opozice-nasla-spolecnou-rec-995.html</link>
+        <description>Na včerejším zasedání padala ostrá slova. Výjimkou nebylo „zlý hňupe“ ani „troubo!“
+</description>
+        <pubDate>2021-02-24 12:02:00 +0100</pubDate>
+      </item>
       <item>
         <title>Sorry jako, končíme. Vláda zakázala samu sebe</title>
         <link>https://hovinky.com/cechistan/sorry-jako-koncime-vlada-zakazala-samu-sebe-994.html</link>
@@ -142,13 +149,6 @@
         <description>V XYZ vzrostl počet nakažených koronavirem o strašně moc na celkových strašně moc, což představuje růst o více než strašně moc procent, uvedla v pondělí dopoledne agentura ABC. Jde o nejvyšší denní nárůst případů v XYZ. Počet obětí také stoupl o strašně moc na strašně moc.
 </description>
         <pubDate>2020-04-13 13:05:00 +0200</pubDate>
-      </item>
-      <item>
-        <title>Muž v přímém přenosu zemřel na elektrošoky</title>
-        <link>https://hovinky.com/krimi/muz-v-primem-prenosu-zemrel-na-elektrosoky-974.html</link>
-        <description>Otřesně skončil výslech na služebně Městské Policie, přenášený v přímém televizním přenosu. Muž (58) na jeho následky zemřel. „Šlo o recidivistu, který byl na služebnu deportován kvůli nošení roušky pod nos,“ upřesňuje mluvčí policie, Jakub Pták. Přivolaný lékař mohl už jen konstatovat zranění slučitelné se smrtí.
-</description>
-        <pubDate>2020-04-10 20:55:00 +0200</pubDate>
       </item>
 
   </channel>
