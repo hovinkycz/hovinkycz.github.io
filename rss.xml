@@ -5,11 +5,18 @@
     <language>cs</language>                                                                                                                                           
     <link>https://hovinky.com/</link>                                                                                                                                   
     <title>Zprávy, které nikdo nečte</title>                                                                                                                                             
-    <pubDate>2021-02-25 09:01:26 +0100</pubDate>                                                                                                                
-    <lastBuildDate>2021-02-25 09:01:26 +0100</lastBuildDate>                                                                                                    
+    <pubDate>2021-02-26 02:10:56 +0100</pubDate>                                                                                                                
+    <lastBuildDate>2021-02-26 02:10:56 +0100</lastBuildDate>                                                                                                    
     <ttl>30</ttl>                                                                                                                                                     
     <atom:link href="https://hovinky.com/rss.xml" rel="self" type="application/rss+xml" /> 
 
+      <item>
+        <title>Vláda požádá Německo a Polsko o pacienty. Máme jich málo</title>
+        <link>https://hovinky.com/zdravi/vlada-pozada-nemecko-a-polsko-o-pacienty-mame-jich-malo-996.html</link>
+        <description>Téměř prázdné jednotky intenzivní péče (JIP) děsí nejen lékaře, ale i zdravotní sestry, kterým kvůli tomu hrozí propouštění v první linii. Situace je nejhorší v Královéhradeckém kraji, kde nemocnice v Chebu žije už jen z vody a chlebu.
+</description>
+        <pubDate>2021-02-26 01:52:00 +0100</pubDate>
+      </item>
       <item>
         <title>Česká opozice našla společnou řeč</title>
         <link>https://hovinky.com/cechistan/ceska-opozice-nasla-spolecnou-rec-995.html</link>
@@ -142,13 +149,6 @@
         <description>Slavnostního znovuodhalení se dočkal pomník J.V. Stalina na Letné. Sochař David Černý při inauguraci prohlásil, že pomník je přesnou kopií originálu od Otakara Švece, avšak z recyklovatelného plastu, aby šel dobře zbourat. Černý pod Stalinovu sochu navíc již dopředu umístil růžový nápis „VRAH“. Ten by měl odradit případné vandaly z hnutí Za černá játra alkoholiků (Black liver matters), kteří obdobným nápisem poškodili sochu Winstona Churchila.
 </description>
         <pubDate>2020-06-19 12:41:00 +0200</pubDate>
-      </item>
-      <item>
-        <title>ON-LINE: XYZ hlásí strašně moc nakažených</title>
-        <link>https://hovinky.com/zdravi/on-line-xyz-hlasi-strasne-moc-nakazenych-975.html</link>
-        <description>V XYZ vzrostl počet nakažených koronavirem o strašně moc na celkových strašně moc, což představuje růst o více než strašně moc procent, uvedla v pondělí dopoledne agentura ABC. Jde o nejvyšší denní nárůst případů v XYZ. Počet obětí také stoupl o strašně moc na strašně moc.
-</description>
-        <pubDate>2020-04-13 13:05:00 +0200</pubDate>
       </item>
 
   </channel>
